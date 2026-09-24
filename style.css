@@ -966,7 +966,27 @@ button {
     width: 20px;
     height: 20px;
 }
+/* Contact location info */
+.contact-location {
+    margin-top: 30px;
+    padding: 20px 24px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
+.contact-location p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.contact-location strong {
+    color: var(--text);
+    font-weight: 600;
+}
 /* =========================================================
    RESPONSIVE
    ========================================================= */
